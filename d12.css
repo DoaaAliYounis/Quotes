@@ -1,0 +1,39 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(199, 199, 175);
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    border-radius: 50px;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#quote{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.733);
+}
+#values{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.733);
+    padding-bottom: 10px;
+}
+button{
+
+    background-color: rgba(0, 0, 255, 0.678);
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+button:hover{
+    opacity: 0.7;
+
+}
